@@ -1,0 +1,10 @@
+streamlit
+groq
+python-dotenv
+youtube-transcript-api
+sentence-transformers
+faiss-cpu
+numpy
+torch
+transformers
+huggingface-hub
