@@ -1,4 +1,4 @@
-# youtube-quiz-generator
+<img width="753" height="907" alt="image" src="https://github.com/user-attachments/assets/44a3d5c9-2524-49d3-9011-f82a5897d1aa" /># youtube-quiz-generator
 AI-powered YouTube Quiz Generator using RAG, FAISS Vector Search, Sentence Transformers, Groq LLM, and Streamlit to automatically generate interactive MCQs from YouTube video transcripts.  
 Keywords:   python genai rag faiss llm groq streamlit youtube quiz-generator vector-search sentence-transformers artificial-intelligence machine-learning
 
@@ -67,3 +67,8 @@ Interactive User Interface
 - Prompt Engineering
 - LLM Integration
 - AI Application Development
+
+
+<img width="753" height="907" alt="image" src="https://github.com/user-attachments/assets/d4ada71b-d2e9-4b59-9d26-8fe79ef0ffc2" />
+
+
