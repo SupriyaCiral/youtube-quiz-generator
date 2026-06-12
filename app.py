@@ -41,7 +41,7 @@ print("Searching Relevant Chunks...")
 
 query = """
 Important concepts, definitions,
-formulas, examples and interview questions
+formulas, numericals, examples and interview questions
 """
 
 query_vector = get_embedding(

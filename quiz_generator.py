@@ -13,9 +13,16 @@ client = Groq(
 def generate_quiz(context):
 
     prompt = f"""
-Generate 5 multiple-choice questions from the content below.
+Generate 5 hard multiple-choice questions from the content below.
 
 Return ONLY valid JSON.
+
+Each question MUST contain:
+
+- question
+- options
+- answer
+- explanation
 
 Format:
 
@@ -28,7 +35,8 @@ Format:
       "Option C",
       "Option D"
     ],
-    "answer": "A"
+    "answer": "A",
+    "explanation":"Artificial Intelligence refers to machines performing tasks that normally require human intelligence."
   }}
 ]
 
@@ -36,11 +44,12 @@ Rules:
 1. Create exactly 5 questions.
 2. Each question must have 4 options.
 3. answer must be ONLY A, B, C, or D.
-4. Do not return explanations.
-5. Do not return markdown.
-6. Return JSON only.
+4. explanation is mandatory.
+5. explanation must be concise (1-3 sentences).
+6. Do not return markdown.
+7. Return JSON only.
 
-Content:
+Transcript:
 
 {context}
 """

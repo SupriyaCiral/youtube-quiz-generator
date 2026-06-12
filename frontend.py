@@ -180,7 +180,10 @@ if "quiz" in st.session_state:
                 correct_answer,
 
                 "status":
-                is_correct
+                is_correct,
+                
+                "explanation": question["explanation"]
+                   
 
             })
 
@@ -246,6 +249,10 @@ if (
 
         st.write(
             f"**Correct Answer:** {result['correct']}"
+        )
+        
+        st.write(
+           f"**Explanation:** {result['explanation']}"
         )
 
         if result["status"]:
