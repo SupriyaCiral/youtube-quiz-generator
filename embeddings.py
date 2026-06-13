@@ -1,4 +1,4 @@
-print("Loading Embedding Model...")
+
 from sentence_transformers import SentenceTransformer
 
 model = SentenceTransformer(
